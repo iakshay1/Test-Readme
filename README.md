@@ -13,6 +13,8 @@ cd
 ```
 bundle install
 ```
+
+3. If the build is failed check the gemfile and then try to update the project to the current version. For more reference visit: <https://rubygems.org>.
               
              
              
