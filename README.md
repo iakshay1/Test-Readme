@@ -12,7 +12,7 @@ cd
 2. Type bundle install to install the required gems mentiond in this project
 ```
 bundle install
-'''
+```
               
              
              
