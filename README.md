@@ -38,7 +38,6 @@ echo 'PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 ```
 brew --version
 ```
-
 ---
 
 #### RVM:
@@ -59,7 +58,6 @@ ruby --version
 ```
 rails --version
 ```
-
 ---
 
 #### Yarn:
@@ -73,7 +71,6 @@ brew install node
 ```
 brew install yarn
 ```
-
 ---
               
              
