@@ -38,9 +38,10 @@ echo 'PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 ```
 brew --version
 ```
+
 ---
 
-* RVM:
+#### RVM:
 
 1. To install ruby and rails go to <https://rvm.io/>.
 
@@ -58,9 +59,10 @@ ruby --version
 ```
 rails --version
 ```
+
 ---
 
-*Yarn:
+#### Yarn:
 1. to install yarn in your machine first you have to install node. Open cmd and type the below command to install node.
 
 ```
@@ -71,6 +73,7 @@ brew install node
 ```
 brew install yarn
 ```
+
 ---
               
              
