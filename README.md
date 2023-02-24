@@ -89,7 +89,9 @@ brew services start postgresql
 ```
  psql postgres
  ```
-4.For more information visit <https://wiki.postgresql.org/wiki/Homebrew>.
+ 
+4. For more information visit <https://wiki.postgresql.org/wiki/Homebrew>.
+
 ---
 
               
