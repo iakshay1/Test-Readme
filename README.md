@@ -21,7 +21,7 @@ bundle install
 
 ---
 
-#### Homebrew Installation:
+## Homebrew Installation:
 
 1. open cmd and copy the below command and press enter to install homebrew in your local machine.
 ```
@@ -41,7 +41,7 @@ brew --version
 ```
 ---
 
-#### RVM:
+## RVM:
 
 1. To install ruby and rails go to <https://rvm.io/>.
 
@@ -61,7 +61,7 @@ rails --version
 ```
 ---
 
-#### Yarn:
+## Yarn:
 1. to install yarn in your machine first you have to install node. Open cmd and type the below command to install node.
 
 ```
@@ -74,7 +74,7 @@ brew install yarn
 ```
 ---
 
-#### PostgreSQL
+## PostgreSQL
 1. To install postgreSQL in your machine type the following command in your cmd.
 ```
 brew install postgresql
