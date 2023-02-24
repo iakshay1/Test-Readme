@@ -75,7 +75,7 @@ brew install yarn
 ---
 
 #### PostgreSQL
-1. To install postgreSQL in your machine type the following commands in your cmd.
+1. To install postgreSQL in your machine type the following command in your cmd.
 ```
 brew install postgresql
 ```
