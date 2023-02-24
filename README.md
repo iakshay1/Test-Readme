@@ -59,7 +59,6 @@ ruby --version
 ```
 rails --version
 ```
----
 
 4. After installing ruby and rails type this command to install ruby version 2.7.2 to avoid Augment error.
 ```
