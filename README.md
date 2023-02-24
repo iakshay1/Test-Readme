@@ -60,8 +60,18 @@ rails --version
 ```
 ---
 
+*Yarn:
+1. to install yarn in your machine first you have to install node. Open cmd and type the below command to install node.
 
+```
+brew install node
+```
 
+2. Once brew is installed you can use the below command to insall yarn.
+```
+brew install yarn
+```
+---
               
              
              
