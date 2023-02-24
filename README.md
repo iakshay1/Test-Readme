@@ -61,6 +61,15 @@ rails --version
 ```
 ---
 
+4. After installing ruby and rails type this command to install ruby version 2.7.2 to avoid Augment error.
+```
+rvm install ruby-2.7.2
+```
+5. After the installation is done make this ruby version as default and current by using the below code.
+```
+rvm --default use ruby-2.7.2
+```
+
 ## Yarn:
 1. to install yarn in your machine first you have to install node. Open cmd and type the below command to install node.
 
