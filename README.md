@@ -94,6 +94,15 @@ brew services start postgresql
 
 ---
 
-              
+## we have installed the primary files to run a ruby on rails project in your local machine. Now to run this project we have to install some dependencies, database creation and initialization.
+
+After cloning the project in your local machine using cmd try bundle install.
+
+If you get an error like `ruby-dep 1.5.0 requires ruby version 2.2.5,~>2.2, which is incompatible with the current version` then try deleting the `gemfile.lock` and run the below command.
+```
+bundle install
+```
+---
+
              
              
