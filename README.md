@@ -94,7 +94,7 @@ brew services start postgresql
 
 ---
 
-## we have installed the primary files to run a ruby on rails project in your local machine. Now to run this project we have to install some dependencies, database creation and initialization.
+## Installing dependencies
 
 After cloning the project in your local machine using cmd try bundle install.
 
@@ -103,6 +103,19 @@ If you get an error like `ruby-dep 1.5.0 requires ruby version 2.2.5,~>2.2, whic
 bundle install
 ```
 ---
+
+After bundle install if you get an error like `install mime magic 0.3.10` then run the below command 
+```
+brew install shared-mime-info
+```
+After this command try the below command again 
+```
+bundle install
+```
+now it should install all the gemfiles required to run this project
+
+---
+
 
              
              
