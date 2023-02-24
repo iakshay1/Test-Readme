@@ -2,7 +2,7 @@
 
 ### This README would normally document whatever steps are necessary to get the application up and running.
 
-##### Ruby Version: 
+#### Ruby Version: 
 
 1. Open Cmd and chage the directory to where the project resides. Use the below command to change the directory.
 ```
@@ -20,7 +20,7 @@ bundle install
 
 ---
 
-##### Homebrew Installation:
+#### Homebrew Installation:
 
 1. open cmd and copy the below command and press enter to install homebrew in your local machine.
 ```
@@ -40,7 +40,7 @@ brew --version
 ```
 ---
 
-*RVM:
+* RVM:
 
 1. To install ruby and rails go to <https://rvm.io/>.
 
