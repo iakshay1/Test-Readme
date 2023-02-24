@@ -38,8 +38,28 @@ echo 'PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 ```
 brew --version
 ```
+---
+
+*RVM:
+
+1. To install ruby and rails go to <https://rvm.io/>.
+
+2.open cmd and type the below command to install ruby and rails.
+```
+\curl -sSL https://get.rvm.io | bash -s stable --rails
+```
+This command installs both ruby and rails in your machine.
+
+3.to check the version of ruby and rails  installed in your machine use the below command.
+```
+ruby --version
+```
+
+```rails --version
+```
 
 ---
+
 
 
               
