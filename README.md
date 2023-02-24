@@ -34,6 +34,11 @@ bundle install
 echo 'PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 ```
 
+4. Now to check the brew version installed in your machine use the below command.
+```
+brew --version
+'''
+
 ---
 
 
