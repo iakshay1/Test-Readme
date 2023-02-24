@@ -75,6 +75,22 @@ brew install yarn
 ---
 
 #### PostgreSQL
+1. To install postgreSQL in your machine type the following commands in your cmd.
+```
+brew install postgresql
+```
+This installs the command line console (psql) as well as a PostgreSQL server locally, so you can create your own databases locally if desired.
+
+2. Run the below command to start the server
+```
+brew services start postgresql
+```
+3. If you want to connect and use it as your user run the following command
+```
+ psql postgres
+ ```
+4.For more information visit <https://wiki.postgresql.org/wiki/Homebrew>.
+---
 
               
              
