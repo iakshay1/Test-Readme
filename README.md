@@ -55,9 +55,9 @@ This command installs both ruby and rails in your machine.
 ruby --version
 ```
 
-```rails --version
 ```
-
+rails --version
+```
 ---
 
 
