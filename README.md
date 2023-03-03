@@ -45,6 +45,8 @@ brew --version
 
 ## RVM:
 
+> RVM is a command-line tool which allows you to easily install, manage, and work with multiple ruby environments from interpreters to sets of gems.
+
 1. To install ruby and rails go to <https://rvm.io/>.
 
 2. Open cmd and type the below command to install ruby and rails.
