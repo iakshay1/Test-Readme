@@ -127,7 +127,7 @@ now it should install all the gemfiles required to run this project
 
 ## Unit Testing
 
-For beginning the unit test in your local machine open VsCode and go to the terminal and type the below command. But befor that check the gem file whether you have the below specified gem files.
+For beginning the unit test in your local machine open VsCode and go to the terminal and type the below command. But befor that check whether you have the below specified gems in the gem file.
 
 ```
 gem 'json_expressions'
