@@ -75,6 +75,9 @@ rvm --default use ruby-2.7.2
 ---
 
 ## Yarn:
+
+> Yarn is a package manager for JavaScript. It is used by Rails to manage JavaScript dependencies.
+
 1. to install yarn in your machine first you have to install node. Open cmd and type the below command to install node.
 
 ```
