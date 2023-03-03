@@ -91,6 +91,9 @@ brew install yarn
 ---
 
 ## PostgreSQL
+
+> PostgreSQL possesses robust feature sets including Multi-Version Concurrency Control (MVCC), point in time recovery, granular access controls, tablespaces, asynchronous replication, nested transactions, online/hot backups, a refined query planner/optimizer, and write ahead logging.
+
 1. To install postgreSQL in your machine type the following command in your cmd.
 ```
 brew install postgresql
