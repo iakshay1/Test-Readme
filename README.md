@@ -43,7 +43,7 @@ brew --version
 
 ## RVM:
 
-1. To install ruby and rails go to <https://rvm.io/>.
+1.To install ruby and rails go to <https://rvm.io/>.
 
 2.open cmd and type the below command to install ruby and rails.
 ```
