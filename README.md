@@ -137,6 +137,8 @@ now it should install all the gemfiles required to run this project
 
 ## Unit Testing
 
+> The main objective of unit testing is to isolate written code to test and determine if it works as intended.
+
 For beginning the unit test in your local machine open VsCode and go to the terminal and type the below command. But befor that check whether you have the below specified gems in the gem file.
 
 ```
