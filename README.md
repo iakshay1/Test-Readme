@@ -125,6 +125,33 @@ now it should install all the gemfiles required to run this project
 
 ---
 
+## Unit Testing
+
+For beginning the unit test in your local machine open VsCode and go to the terminal and type the below command. But befor that check the gem file whether you have the below specified gem files.
+
+```
+gem 'json_expressions'
+```
+
+```
+gem 'simplecov' 
+```
+
+```
+ gem 'webmock'  
+```
+
+If the above specified gems not present in the gem file add it and then run the bundle command 
+
+```
+bundle install
+```
+
+After Installing use the below command to run the rails test
+
+```
+rails test -e qa
+```
 
              
              
