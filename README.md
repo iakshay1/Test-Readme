@@ -138,7 +138,7 @@ gem 'simplecov'
 ```
 
 ```
- gem 'webmock'  
+gem 'webmock'  
 ```
 
 If the above specified gems not present in the gem file add it and then run the bundle command 
