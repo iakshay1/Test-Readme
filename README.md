@@ -154,5 +154,7 @@ rails test -e qa
 ```
 
 After it completed running open the index.html file in the generated coverage folder to check the code coverage.
+
+---
              
              
