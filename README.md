@@ -23,7 +23,8 @@ bundle install
 
 ## Homebrew Installation:
 
-#### When we run brew install, Homebrew reads our package's Formula — an implementation of Ruby's abstract Formula class that provides package metadata and installation instructions — to create an executable from our source code and install it locally on our computer.
+### When we run brew install, Homebrew reads our package's Formula — an implementation of Ruby's abstract Formula class that provides package metadata and installation instructions — to create an executable from our source code and install it locally on our computer.
+
 
 1. open cmd and copy the below command and press enter to install homebrew in your local machine.
 ```
