@@ -168,5 +168,24 @@ rails test -e qa
 After it completed running open the index.html file in the generated coverage folder to check the code coverage.
 
 ---
+
+## Bastion Host
+
+> A bastion host is a server whose purpose is to provide access to a private network from an external network, such as the Internet.
+
+#### QA
+
+1. To start the bastion host instance in QA environment login into your [jenkins](https://jenkins.dso.credavenue.io/login?from=%2F) select Onboarding -> Utilities -> start-stop-onboarding-bastion-instance then click on build with parameters from the left column and then specify the int environment to start a instance in QA.
+
+2. Once the instance has been started got to AWS CAPL and log in into you int onboarding role.
+
+3. Select EC2 in console home 
+
+4. Then click on Instances(running).
+
+5. Then search for the instance you started in the jenkins
+
+6. click on connect to connect to the instance.
+
              
              
