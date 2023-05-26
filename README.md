@@ -173,19 +173,57 @@ After it completed running open the index.html file in the generated coverage fo
 
 > A bastion host is a server whose purpose is to provide access to a private network from an external network, such as the Internet.
 
-#### QA
+### QA
 
-1. To start the bastion host instance in QA environment login into your [jenkins](https://jenkins.dso.credavenue.io/login?from=%2F) select Onboarding -> Utilities -> start-stop-onboarding-bastion-instance then click on build with parameters from the left column and then specify the int environment to start a instance in QA.
+1. To start the bastion host instance in QA environment login into your [jenkins](https://jenkins.dso.credavenue.io/login?from=%2F) select Onboarding -> Utilities -> start-stop-onboarding-bastion-instance then click on build with parameters from the left column and then specify the int environment to start an instance in QA.
 
-2. Once the instance has been started got to AWS CAPL and log in into you int onboarding role.
+2. Once the instance has been started go to AWS CAPL and log in into you int onboarding role.
 
 3. Select EC2 in console home 
 
 4. Then click on Instances(running).
 
-5. Then search for the instance you started in the jenkins
+5. Then search for onboarding instance you have started in the jenkins
 
 6. click on connect to connect to the instance.
+
+7. once the connection is successful use the below command for edit and save access
+
+```
+sudo su - ec2-user
+```
+8. Next locate ca-onboarding-api folder. use the below command for locating files
+
+```
+locate ca-onboarding-api
+```
+
+9. After locating the folder use the below command to change directory
+
+```
+cd <Folder Path>
+```
+
+10. Once you are in the desired directory you can start the rails console by using the below command
+
+```
+rails c 
+```
+
+11. once the Console has been started use the below command to set user 
+
+```
+User.current_user = User.where(email: /amplitudecag@yopmail.com/).first
+```
+
+12. Once you are done with your changes you can use the below command to close the console
+
+```
+exit
+```
+
+
+
 
              
              
