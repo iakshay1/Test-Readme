@@ -218,11 +218,11 @@ User.current_user = User.where(email: /amplitudecag@yopmail.com/).first
 
 12. Once you are done with your changes you can use the below command to close the console
 
----
-
 ```
 exit
 ```
+
+---
 
 
 
