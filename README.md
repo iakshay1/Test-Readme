@@ -222,6 +222,8 @@ User.current_user = User.where(email: /amplitudecag@yopmail.com/).first
 exit
 ```
 
+Follow the same steps for other environments
+
 ---
 
 
